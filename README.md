@@ -1,64 +1,27 @@
-# Personal Portfolio Website
+# 💼 Personal Portfolio Website
 
-A modern, responsive personal portfolio website built with Next.js, Tailwind CSS, and Framer Motion.
+A modern, responsive personal portfolio website built with **Next.js**, **Tailwind CSS**, and **Framer Motion**. This site showcases personal projects, developer skills, and contact information in an elegant and interactive format.
 
-## Features
+---
 
-- Gray dominant design with modern blue accents
-- Fully responsive for desktop and mobile devices
-- Smooth animations and page transitions with Framer Motion
-- 3D effects on the main page using React Three Fiber
-- Comment/testimonial system using local storage
-- CV download functionality
-- Complete pages: Home, About, Projects, and Contact
+## 🏆 Achievement
 
-## Tech Stack
+🥉 **3rd Place Winner** – Cyber Security Competition 2024  
+Represented **SMK Muhammadiyah 1 Ajibarang** as the frontend developer. Built secure, efficient, and responsive web interfaces that contributed to the team’s success in solving real-world cybersecurity challenges.
 
-- **Next.js**: React framework for server-rendered applications
-- **Tailwind CSS**: Utility-first CSS framework
-- **Framer Motion**: Animation library for React
-- **React Three Fiber**: React renderer for Three.js
-- **shadcn/ui**: Reusable UI components
-- **Local Storage**: For storing testimonials
+---
 
-## Getting Started
+## 🚀 Features
 
-### Prerequisites
+- 🎨 Gray-dominant design with modern blue accents  
+- 📱 Fully responsive on desktop and mobile  
+- 🎞 Smooth animations and page transitions (Framer Motion)  
+- 🧊 Interactive 3D effects (React Three Fiber)  
+- 💬 Comment/testimonial system using Local Storage  
+- 📄 Downloadable CV  
+- 🗂 Complete pages: **Home**, **About**, **Projects**, **Contact**
 
-- Node.js 18.x or later
-- npm or yarn
-
-### Installation
-
-1. Clone the repository:
-
-\`\`\`bash
-git clone https://github.com/yourusername/portfolio-website.git
-cd portfolio-website
-\`\`\`
-
-2. Install dependencies:
-
-\`\`\`bash
-npm install
-# or
-yarn install
-\`\`\`
-
-3. Run the development server:
-
-\`\`\`bash
-npm run dev
-# or
-yarn dev
-\`\`\`
-
-4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
-
-## Project Structure
-
-\`\`\`
-portfolio-website/
+  portfolio-website/
 ├── app/                  # Next.js app directory
 │   ├── about/            # About page
 │   ├── contact/          # Contact page
@@ -66,46 +29,45 @@ portfolio-website/
 │   ├── globals.css       # Global styles
 │   ├── layout.tsx        # Root layout
 │   └── page.tsx          # Home page
-├── components/           # React components
-│   ├── ui/               # UI components from shadcn/ui
-│   ├── hero.tsx          # Hero section with 3D effect
-│   ├── navbar.tsx        # Navigation bar
-│   ├── footer.tsx        # Footer component
+├── components/           # Reusable components
+│   ├── ui/               # shadcn/ui components
+│   ├── hero.tsx          # Hero section with 3D effects
+│   ├── navbar.tsx        # Top navigation bar
+│   ├── footer.tsx        # Footer
 │   └── ...               # Other components
 ├── hooks/                # Custom React hooks
-├── public/               # Static assets
-└── ...                   # Config files
-\`\`\`
+├── public/               # Static files and assets
+└── ...                   # Config files (tsconfig, tailwind.config, etc.)
 
-## Customization
 
-### Personal Information
+---
 
-Update your personal information in the respective components:
+## 🛠 Tech Stack
 
-- Update your name and title in `components/hero.tsx`
-- Update your about information in `app/about/page.tsx`
-- Update your projects in `app/projects/page.tsx`
-- Update your contact information in `app/contact/page.tsx`
+- **Next.js** – React framework for SSR and routing  
+- **Tailwind CSS** – Utility-first CSS for rapid design  
+- **Framer Motion** – For animations and transitions  
+- **React Three Fiber** – 3D rendering with Three.js in React  
+- **shadcn/ui** – Headless UI components  
+- **Local Storage** – For persisting testimonials
 
-### Styling
+---
 
-The project uses Tailwind CSS for styling. You can customize the colors, fonts, and other design elements in the `tailwind.config.ts` file.
+## 🧰 Getting Started
 
-### 3D Effects
+### ✅ Prerequisites
 
-The 3D effects on the home page are created using React Three Fiber. You can customize the 3D model in the `components/hero.tsx` file.
+- Node.js 18.x or later  
+- npm or yarn
 
-## Deployment
+### 📦 Installation
 
-This project can be easily deployed to Vercel:
+Clone the repository:
 
-\`\`\`bash
-npm run build
+```bash
+git clone https://github.com/yourusername/portfolio-website.git
+cd portfolio-website
+npm install
 # or
-vercel
-\`\`\`
+yarn install
 
-## License
-
-This project is licensed under the MIT License.
