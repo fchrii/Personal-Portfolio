@@ -21,6 +21,7 @@ Represented **SMK Muhammadiyah 1 Ajibarang** as the frontend developer. Built se
 - 📄 Downloadable CV  
 - 🗂 Complete pages: **Home**, **About**, **Projects**, **Contact**
 
+```Structure Project
   portfolio-website/
 ├── app/                  # Next.js app directory
 │   ├── about/            # About page
