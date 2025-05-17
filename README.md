@@ -20,27 +20,7 @@ Represented **SMK Muhammadiyah 1 Ajibarang** as the frontend developer. Built se
 - 💬 Comment/testimonial system using Local Storage  
 - 📄 Downloadable CV  
 - 🗂 Complete pages: **Home**, **About**, **Projects**, **Contact**
-
-```Structure Project
-  portfolio-website/
-├── app/                  # Next.js app directory
-│   ├── about/            # About page
-│   ├── contact/          # Contact page
-│   ├── projects/         # Projects page
-│   ├── globals.css       # Global styles
-│   ├── layout.tsx        # Root layout
-│   └── page.tsx          # Home page
-├── components/           # Reusable components
-│   ├── ui/               # shadcn/ui components
-│   ├── hero.tsx          # Hero section with 3D effects
-│   ├── navbar.tsx        # Top navigation bar
-│   ├── footer.tsx        # Footer
-│   └── ...               # Other components
-├── hooks/                # Custom React hooks
-├── public/               # Static files and assets
-└── ...                   # Config files (tsconfig, tailwind.config, etc.)
-
-
+  
 ---
 
 ## 🛠 Tech Stack
@@ -71,4 +51,24 @@ cd portfolio-website
 npm install
 # or
 yarn install
+
+
+portfolio-website/
+├── app/                  # Next.js app directory
+│   ├── about/            # About page
+│   ├── contact/          # Contact page
+│   ├── projects/         # Projects page
+│   ├── globals.css       # Global styles
+│   ├── layout.tsx        # Root layout
+│   └── page.tsx          # Home page
+├── components/           # Reusable components
+│   ├── ui/               # shadcn/ui components
+│   ├── hero.tsx          # Hero section with 3D effects
+│   ├── navbar.tsx        # Top navigation bar
+│   ├── footer.tsx        # Footer
+│   └── ...               # Other components
+├── hooks/                # Custom React hooks
+├── public/               # Static files and assets
+└── ...                   # Config files (tsconfig, tailwind.config, etc.)
+
 
