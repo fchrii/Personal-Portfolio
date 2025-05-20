@@ -16,7 +16,7 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Portfolio | Fachri Ahsani",
-  icons: "",
+  icons: "/fachri.svg",
 }
 
 export default function RootLayout({
